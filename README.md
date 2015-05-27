@@ -19,7 +19,7 @@ A few requirements apply to this project. At a minimum you need the following:
 
 Here's another fine video guide I did while trying hard to not play agar.io too much.
 
-[![](https://raw.githubusercontent.com/kordless/swarm-ghost/master/assets/video.png)](https://vimeo.com/120735541)
+[![](https://raw.githubusercontent.com/giantswarm/swarm-ogar/master/assets/video.png)](https://vimeo.com/129050664)
 
 ### Code Checkout
 Let's clone the repo:
