@@ -1,4 +1,4 @@
-## Swarm Ogar
+## Swarm Ogar (Open Source agar.io Server)
 This is the deployment guide for the [agar.io](http://agar.io/) server clone, [Ogar](https://github.com/vram4/Ogar). You may run Ogar locally on your OSX or Linux system, or deploy it to [Giant Swarm's service](https://giantswarm.io/) if you have an Alpha account. If you would like to get your Alpha account faster, be sure to [follow and ping](https://twitter.com/giantswarm/) us on Twitter.
 
 ### Prerequisites
