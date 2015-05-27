@@ -1,0 +1,18 @@
+{
+  "app_name": "ogar",
+  "services": [
+    {
+      "service_name": "game",
+      "components": [
+        {
+          "component_name": "nodejs",
+          "image": "registry.giantswarm.io/$org/$app",
+          "ports": [443],
+          "domains": {
+            "$domain": 443 
+          }
+        }
+      ]
+    }
+  ]
+}
