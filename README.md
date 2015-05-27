@@ -10,11 +10,15 @@ A few requirements apply to this project. At a minimum you need the following:
 
 *Note: Having a Giant Swarm account and the CLI installed is optional if you are OK running Ogar locally.*
 
+![business cat](https://github.com/giantswarm/swarm-ogar/blob/master/assets/meme.jpg)
+
+**"Meow."** - Cat 
+
 ### Video Walkthrough
 
 Here's another fine video guide I did while trying hard to not play agar.io too much.
 
-[![]()](https://vimeo.com/)
+[![](https://raw.githubusercontent.com/kordless/swarm-ghost/master/assets/video.png)](https://vimeo.com/120735541)
 
 ### Code Checkout
 Let's clone the repo:
