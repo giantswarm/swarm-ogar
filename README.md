@@ -7,6 +7,7 @@ A few requirements apply to this project. At a minimum you need the following:
 * A functional install of [boot2docker](https://github.com/kordless/boot2docker-ing).
 * A Giant Swarm [account](https://giantswarm.io).
 * The **swarm** command line client [installed](http://docs.giantswarm.io/reference/installation/). 
+* A serious addiction to eating dots.
 
 *Note: Having a Giant Swarm account and the CLI installed is optional if you are OK running Ogar locally.*
 
