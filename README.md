@@ -74,7 +74,7 @@ When the `ngrok` overview page comes up, copy the URL with `ngrok.io` in it and 
     connect("cdca36d8.ngrok.io")
 
 ### Deploy to Giant Swarm
-Giant Swarm's service is a bit of a cross between [Heroku](https://heroku.com) and [Digital Ocean](https://digitalocean.com). The service is currently in closed Alpha test, but you can apply for an account and then ping the team for access.
+Giant Swarm's service is a bit of a cross between [Heroku](https://heroku.com) and [Digital Ocean](https://digitalocean.com). The service is currently in closed Alpha test, but you can [apply for an account](https://giantswarm.io) and then [ping the team](https://twitter.com/giantswarm) for access.
 
 To deploy the application to Giant Swarm, you'll need to first login with the CLI (command line interface):
 
