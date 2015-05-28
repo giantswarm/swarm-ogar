@@ -4,7 +4,7 @@ This is the deployment guide for the [agar.io](http://agar.io/) server clone, [O
 ### Prerequisites
 A few requirements apply to this project. At a minimum you need the following:
 
-* A functional install of [boot2docker](https://github.com/kordless/boot2docker-ing) (Windows [here](https://github.com/boot2docker/windows-installer/releases))
+* A functional install of [boot2docker](https://github.com/kordless/boot2docker-ing) (Windows? Go [here](https://github.com/boot2docker/windows-installer/releases).)
 * A Giant Swarm [account](https://giantswarm.io).
 * The **swarm** command line client [installed](http://docs.giantswarm.io/reference/installation/). 
 * A serious addiction to eating dots.
