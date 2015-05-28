@@ -65,7 +65,9 @@ If you would like to share your local Ogar server with friends who are not on yo
 1. Start the Ogar server locally by doing a `make docker-run` in the `swarm-ogar` directory.
 1. In another terminal, type the following:
 
-	ngrok http 192.168.59.103:443
+```
+ngrok http 192.168.59.103:443
+```
 
 When the `ngrok` overview page comes up, copy the URL with `ngrok.io` in it and give it to your friends. They'll need to open up the JavaScript console in their web browser and then type something like this to connect:
 
