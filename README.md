@@ -77,3 +77,34 @@ Next, enter the following:
 $ make swarm-up
 ```    
 
+You'll get back something like this:
+
+```
+superman:swarm-ogar kord$ make swarm-up
+docker build -t registry.giantswarm.io/kord/ogar .
+Sending build context to Docker daemon 167.4 kB
+Sending build context to Docker daemon
+
+...
+
+swarm up \
+	  --var=username=kord \
+	  --var=org=kord \
+	  --var=env=dev \
+	  --var=domain=ogar-kord.gigantic.io \
+	  --var=app=ogar
+Starting application ogar...
+Application ogar is up.
+You can see all services and components using this command:
+
+    swarm status ogar
+
+Use ws://ogar-kord.gigantic.io from agar.io to play game.
+```
+
+Once the server is running, you'll need to navigate to [agar.io](http://agar.io/) and then (in Chrome) hit `Command` + `Option` + `J` (Mac) or `Control` + `Shift` + `J` (Windows/Linux) and type the following in the console:
+
+	connect("ws://ogar-<username>.gigantic.io")
+
+Enjoy!
+
