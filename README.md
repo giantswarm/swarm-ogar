@@ -69,6 +69,12 @@ If you would like to share your local Ogar server with friends who are not on yo
 ngrok http 192.168.59.103:443
 ```
 
+*Note: This would work even if you were running Ogar natively on your computer in NodeJS. You would need to change the command slightly by simply leaving out the IP address:*
+
+```
+ngrok http 443
+```
+
 When the `ngrok` overview page comes up, copy the URL with `ngrok.io` in it and give it to your friends. They'll need to open up the JavaScript console in their web browser and then type something like this to connect:
 
     connect("cdca36d8.ngrok.io")
