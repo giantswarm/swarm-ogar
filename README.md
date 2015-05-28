@@ -17,7 +17,7 @@ A few requirements apply to this project. At a minimum you need the following:
 
 ### Video Walkthrough
 
-Here's another horribly long video I did real while trying hard to not play agar.io too much. I'll make a much shorter one later, if this is popular.
+Here's another fine video walkthrough:
 
 [![](https://raw.githubusercontent.com/giantswarm/swarm-ogar/master/assets/video.png)](https://vimeo.com/129065168)
 
