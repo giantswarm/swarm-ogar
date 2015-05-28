@@ -17,7 +17,7 @@ A few requirements apply to this project. At a minimum you need the following:
 
 ### Video Walkthrough
 
-Here's another fine video walkthrough:
+Here's another fine video walkthrough. I'm not sure where the hat went.
 
 [![](https://raw.githubusercontent.com/giantswarm/swarm-ogar/master/assets/video.png)](https://vimeo.com/129065168)
 
