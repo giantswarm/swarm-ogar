@@ -57,6 +57,19 @@ Once the server is running, you'll need to navigate to [agar.io](http://agar.io/
 
 Please note the IP address outputted in the `make docker-run` section above needs to match what you type in the console.
 
+### Run Locally, Share Globally
+If you would like to share your local Ogar server with friends who are not on your local network, you'll need to install [Ngrok](https://ngrok.com/):
+
+1. Download the `ngrok` client from the [downloads page](https://ngrok.com/download).
+1. Double click the zip file and move the `ngrok` executable into a directory where you can run it. On OSX, I put it in `/usr/local/bin/ngrok`
+1. Start the Ogar server locally by doing a `make docker-run` in the `swarm-ogar` directory.
+1. In another terminal, type the following:
+
+	ngrok http 192.168.59.103:443
+
+When the `ngrok` overview page comes up, copy the URL with `ngrok.io` in it and give it to your friends. They'll need to open up the JavaScript console in their web browser and then type something like this to connect:
+
+    connect("cdca36d8.ngrok.io")
 
 ### Deploy to Giant Swarm
 Giant Swarm's service is a bit of a cross between [Heroku](https://heroku.com) and [Digital Ocean](https://digitalocean.com). The service is currently in closed Alpha test, but you can apply for an account and then ping the team for access.
